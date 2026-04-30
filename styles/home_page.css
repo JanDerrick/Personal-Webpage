@@ -15,8 +15,9 @@
 }
 
 .intro {
-  margin-bottom: 50px;
+  width: 75%;
   line-height: 1.5;
+  margin-bottom: 50px;
 }
 
 .about-me-div {
