@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 25px;
+  left: 0;
+  right: 0;
+  padding: 0 25px;
+  z-index: 9999;
+}
+
+.navbar {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.50);
+}
+
+.navLink {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 25px;
+  transition: hover 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.navLink:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+

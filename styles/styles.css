@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #01156d, #000000 100%);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+}
+
+#about-me {
+  background: linear-gradient(180deg, #000000, #01156d 100%);
+}
