@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/home_page.css">
   </head>
   <body>
+
     <header class="header">
       <nav class="navbar">
         <a href="#home" class="navLink">Home</a>
@@ -26,23 +27,88 @@
             <a href="#about-me">About Me</a>
           </button>
         </div>
-        
       </div>
     </section>
 
     <section id="about-me">
       <div class="about-me-page">
         <h1>About Me</h1>
-        <div class="about-me-pic-div">
-          <img class="me-pic" src="pictures/Me.jpg" alt="Picture of Derrick">
-        </div>
-        <div class="about-me-content">
-          <div>Name: Jan Derrick L. Pamplona</div>
-          <div>Age: 21</div>
-          <div>Address: Janopol Oriental, Tanauan City, Batangas</div>
+        
+        <div class="about-me-grid">
+          
+          <div class="about-me-pic-div">
+            <img class="me-pic" src="pictures/Me.jpg" alt="Picture of Derrick">
+          </div>
+
+          <div class="about-me-content">
+            <div><b>Name:</b> Jan Derrick L. Pamplona</div>
+            <div><b>Age:</b> 21 Years Old</div>
+            <div><b>Address:</b> Janopol Oriental, Tanauan City, Batangas</div>
+            <div><b>Program:</b> Bachelor of Science in Computer Engineering</div>
+          </div>
+          <div class="button-section">
+            <a href="#more-about-me">
+              <button class="more-button">More About Me</button>
+            </a>
+            <a href="#hobbies">
+              <button class="more-button">Hobbies</button>
+            </a>
+            <a href="#skills">
+              <button class="more-button">Skills</button>
+            </a>
+          </div>
         </div>
       </div>
+
+      <div class="modals">
+        <div id="more-about-me" class="modal-overlay">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span> More About Me</span>
+              <a href="#about-me" class="close-btn">[x]</a>
+            </div>
+            <div class="modal-body">
+              <p>Hi! I'm Derrick</p>
+            </div>
+          </div>
+        </div>
+        <div id="hobbies" class="modal-overlay">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span> Hobbies</span>
+              <a href="#about-me" class="close-btn">[x]</a>
+            </div>
+            <div class="modal-body">
+              <ol>
+                <li>Reading</li>
+                <li>Eating</li>
+                <li>Sleeping</li>
+                <li>Exploring things</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div id="skills" class="modal-overlay">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span> Skills</span>
+              <a href="#about-me" class="close-btn">[x]</a>
+            </div>
+            <div class="modal-body">
+              <ol>
+                <li>Programming</li>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
+
+    
+    
     <section id="about">About Page</section>
     <section id="achievements">Achievements</section>
     <section id="socials">Socials</section>
