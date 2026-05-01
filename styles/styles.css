@@ -28,3 +28,46 @@ section {
   color: white;
 }
 
+#achievements {
+  padding: 60px 20px;
+  background-color: #000831;
+  min-height: 100vh;
+}
+
+.achievements-page h1 {
+  text-align: center;
+  color: white;
+  margin: 40px 0;
+  font-size: 40px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.card p {
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
