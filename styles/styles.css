@@ -44,6 +44,16 @@ section {
   height: 100vh;
 }
 
+.about-me-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 95%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
 .about-me-page h1 {
   position: absolute;
   top: 40px;
@@ -66,9 +76,92 @@ section {
 }
 
 .about-me-content {
-  font-size: 18px;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 20px;
   background: rgba(255, 255, 255, 0.2);
   margin-left: 50px;
-  max-width: 500px;
+  margin-top: 60px;
+  width: 400px;
   line-height: 1.5;
+}
+
+.about-me-content b {
+  color: rgb(233, 135, 6);
+}
+
+.about-me-pic-div {
+  justify-self: start; 
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 60px;
+}
+
+.more-button {
+  width: 200px;
+  padding: 12px 0;
+  background: transparent;
+  color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.more-button:hover {
+  background: white;
+  color: #000831;
+}
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-overlay:target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #333;
+  border-radius: 8px;
+  width: 400px;
+  overflow: hidden;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body {
+  padding: 10px 40px;;
+  color: #333;
+  line-height: 1.5;
+}
+
+.close-btn {
+  color: white;
+  text-decoration: none;
 }
