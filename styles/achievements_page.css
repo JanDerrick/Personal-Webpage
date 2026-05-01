@@ -1,8 +1,14 @@
 #achievements {
+  position: relative;
   padding: 60px 20px;
-  background-color: #000831;
   min-height: 100vh;
+  background-color: rgba(3, 3, 22, 0.952);
+  background-image: url('../pictures/texture.jpg');
+  background-blend-mode: overlay;
+  background-size: cover;
 }
+
+
 
 .achievements-page h1 {
   text-align: center;
