@@ -3,6 +3,9 @@
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-page {
