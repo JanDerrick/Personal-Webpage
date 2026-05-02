@@ -1,0 +1,54 @@
+#cpe-dump {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#cpe-dump h1 {
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 20px;
+  font-size: 40px;
+}
+
+.cpe-dump-container {
+  overflow: hidden;
+  padding: 50px 0;
+  display: flex;
+}
+
+.scroll-wrapper {
+  display: flex;
+  white-space: nowrap;
+  animation: infiniteScroll 30s linear infinite;
+}
+
+
+@keyframes infiniteScroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.media-item {
+  height: 350px;
+  margin: 0 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  object-fit: cover;
+}
+
+.media-item:hover {
+  box-shadow: 2px 2px 32px rgba(233, 135, 6, 0.6);
+}
+
+.portrait {
+  width: 200px;
+}
+
+.landscape {
+  width: 620px;
+}
